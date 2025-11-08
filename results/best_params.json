@@ -1,0 +1,7 @@
+{
+  "n_frequencies": 64,
+  "trunk_width": 64,
+  "branch_width": 256,
+  "base_lr": 0.0018914957105502805,
+  "weight_decay": 0.0003757777633898066
+}

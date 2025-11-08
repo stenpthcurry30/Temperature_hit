@@ -1,0 +1,22 @@
+{
+  "mode": "train",
+  "num_train_samples": 2000,
+  "num_val_samples": 200,
+  "h0": 10.0,
+  "shard_size": 1000,
+  "epochs": 1500,
+  "opt_epochs": 100,
+  "batch_size": 32,
+  "accum_steps": 1,
+  "base_lr": 0.0018914957105502805,
+  "weight_decay": 0.0003757777633898066,
+  "num_workers": 4,
+  "eval_every": 10,
+  "early_stop_patience": 20,
+  "n_trials": 50,
+  "data_dir": "pde_data",
+  "output_dir": "results",
+  "n_frequencies": 64,
+  "trunk_width": 64,
+  "branch_width": 256
+}
